@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Adaa" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.Adaa.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/adaa_launch_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/adaa_launch_mark</item>
+        <item name="postSplashScreenTheme">@style/Theme.Adaa</item>
+        <item name="android:statusBarColor">@color/adaa_launch_background</item>
+        <item name="android:navigationBarColor">@color/adaa_launch_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+project_id = "adaa-backend"
+
+[functions.wallet-worker]
+# Cron authenticates with the dedicated secret checked inside the function.
+# This endpoint does not accept end-user wallet instructions or raw provider callbacks.
+verify_jwt = false

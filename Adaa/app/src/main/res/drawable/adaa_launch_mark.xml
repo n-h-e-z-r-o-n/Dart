@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Entire mark remains within Android's circular splash-icon safe area. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="288dp" android:height="288dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- A sculpted A: generous negative space and a quiet champagne finish. -->
+    <path android:fillColor="@color/adaa_launch_champagne"
+        android:fillType="evenOdd"
+        android:pathData="M33,65 L51,25 L57,25 L75,65 L67,65 L54,35 L41,65 Z M44,53 L64,53 L67,59 L41,59 Z" />
+    <path android:fillColor="@color/adaa_launch_champagne" android:fillAlpha="0.55"
+        android:pathData="M52,21 L54,18 L56,21 L54,24 Z" />
+    <!-- Custom vector wordmark; no downloaded font or bitmap required. -->
+    <path android:fillColor="@color/adaa_launch_champagne" android:fillType="evenOdd"
+        android:pathData="M33,82 L36,74 L37.5,74 L40.5,82 L39,82 L38.2,79.8 L35.3,79.8 L34.5,82 Z M35.8,78.5 L37.8,78.5 L36.8,75.8 Z M44,74 L47,74 C52,74 52,82 47,82 L44,82 Z M45.5,75.4 L45.5,80.6 L47,80.6 C50,80.6 50,75.4 47,75.4 Z M55,82 L58,74 L59.5,74 L62.5,82 L61,82 L60.2,79.8 L57.3,79.8 L56.5,82 Z M57.8,78.5 L59.8,78.5 L58.8,75.8 Z M66,82 L69,74 L70.5,74 L73.5,82 L72,82 L71.2,79.8 L68.3,79.8 L67.5,82 Z M68.8,78.5 L70.8,78.5 L69.8,75.8 Z" />
+</vector>
